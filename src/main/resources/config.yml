@@ -1,0 +1,34 @@
+# OwlLib Configuration
+
+# Set to true to enable debug logging
+debug: false
+
+# General settings
+settings:
+  # Maximum number of components that can be registered
+  max-components: 100
+
+  # Maximum number of concurrent events
+  max-concurrent-events: 5
+
+  # Default timeout in milliseconds for operations
+  default-timeout: 5000
+
+# Plugin compatibility settings
+compatibility:
+  # Check for minimum required server version
+  enforce-server-version: true
+  min-server-version: "1.16"
+
+  # List of incompatible plugins
+  incompatible-plugins: []
+
+# Event handling settings
+events:
+  async-processing: true
+  log-all-events: false
+
+# Security settings
+security:
+  # Validate external plugin calls
+  validate-external-calls: true

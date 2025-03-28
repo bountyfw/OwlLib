@@ -1,0 +1,13 @@
+name: OwlLib
+version: '1.0.0'
+main: fr.cylc.owlLib.OwlLib
+api-version: '1.21'
+prefix: OwlLib
+load: STARTUP
+authors: [ BountyFW ]
+description: A library plugin providing reusable components for other plugins
+website: https://cylc.fr
+commands:
+  owlinfo:
+    description: Displays information about the plugin
+    usage: /<command>
